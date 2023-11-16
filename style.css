@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    gap: 16px;
+}
+
+.itens{
+    background-color: #909090;
+    height: 75px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    padding-inline: 16px;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.itens label{
+    width: 200px;
+    height: 50px;
+    font-size: inherit;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.itens input{
+    width: 100%;
+    padding: 10px;
+    font-size: inherit;
+    outline: none;
+}
+
+.itens button{
+    width: 200px;
+    height: 50px;
+    font-size: inherit;
+}
+
+.itens .numeros{
+    background-color: #fff;
+    color: black;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    gap: 8px;
+    overflow-x: scroll;
+    white-space: nowrap;
+    align-items: center;
+    font-size: inherit;
+    padding-inline: 8px;
+}
+
+.numeros span{
+    background-color: rgba(255, 255, 0, 0.267);
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
